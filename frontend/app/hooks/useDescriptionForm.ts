@@ -2,7 +2,7 @@
 import { useRouter } from 'next/navigation'
 import React, { useState } from 'react'
 import { fetchService } from '../service/fetchService'
-import { Backend } from '../page'
+import { Backend } from '../service/backendLink'
 
 export default function useDescription() {
     const [description, setDescription] = useState<string>('')

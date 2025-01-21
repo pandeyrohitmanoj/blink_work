@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react'
 import { tProduct } from '../components/tables/TableComponent'
 import useFetch from './useFetch'
-import { Backend } from '../page'
+import { Backend } from '../service/backendLink'
 
 export default function useTableComponent() {
     const [state, setState] = useState<tProduct[]>([])

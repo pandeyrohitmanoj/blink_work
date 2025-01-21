@@ -1,0 +1,14 @@
+{
+  "name": "blink_work",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "frontend": "cd frontend & npm start",
+    "backend":" cd backend & npm run dev",
+    "start": "npm run backend & npm run frontend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

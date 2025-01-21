@@ -1,5 +1,4 @@
 'use client'
-export const Backend = process.env.NEXT_PUBLIC_BACKEND ;
 
 import { useRouter } from "next/navigation";
 import TableComponent from "./components/tables/TableComponent";

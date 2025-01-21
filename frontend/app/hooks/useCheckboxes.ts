@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import useFetch from './useFetch'
-import { Backend } from '../page'
+import { Backend } from '../service/backendLink'
 
 type tProduct = Record<string, string | number> & { id: number}
 

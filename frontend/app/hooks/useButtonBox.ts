@@ -2,7 +2,7 @@ import React, { SetStateAction } from 'react'
 import { fetchService } from '../service/fetchService'
 
 import { tProduct } from '../components/tables/TableComponent'
-import { Backend } from '../page'
+import { Backend } from '../service/backendLink'
 export default function useButtonBox(orderId: number,setmessage:React.Dispatch<SetStateAction<boolean>>,setError: React.Dispatch<SetStateAction<boolean>>,setState:React.Dispatch<SetStateAction<tProduct[]>>) {
     const handleEdit = () => {
 
