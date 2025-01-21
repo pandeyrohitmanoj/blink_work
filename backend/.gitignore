@@ -1,0 +1,8 @@
+# Next.js files
+.next/
+out/
+
+# Build tools
+build/
+dist/
+
