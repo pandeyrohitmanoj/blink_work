@@ -1,3 +1,4 @@
+'use client'
 
 import useDescriptionForm from "../../hooks/useDescriptionForm"
 import CheckboxesComponent from "./Checkbox"

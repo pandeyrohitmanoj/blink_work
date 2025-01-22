@@ -1,3 +1,4 @@
+'use client'
 
 import TableHeaders from './TableHeaders'
 import TableBody from './TableBody'

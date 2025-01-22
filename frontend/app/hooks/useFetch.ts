@@ -10,6 +10,6 @@ export default function useFetch<T>(setState: React.Dispatch<SetStateAction<T>>,
                 setState(value.result)
                 setLoading(false)
             })()
-        }, [url,])
+        }, [url,options])
   return {loading,}
 }
